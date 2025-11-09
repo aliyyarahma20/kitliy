@@ -1,4 +1,4 @@
-# 📱 kitliy - Mobile App
+# kitliy - Mobile App
 
 **Develop Better, Build Faster**
 
@@ -8,18 +8,17 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 
 ## 👤 Identitas
 
-- **Nama**: Aliyyarahma
+- **Nama**: Aliyya Rahmawati Putri
 - **NIM**: 15-2023-093
 - **Mata Kuliah**: Pemrograman Mobile
 - **Dosen**: Galih Ashari R., S.Si., MT
-- **Kelas**: AA/BB
-- **Semester**: Ganjil 2024/2025
+- **Kelas**: BB
 
 ---
 
 ## 📝 Deskripsi Aplikasi
 
-**kitliy** (toolkit by aliy) adalah aplikasi mobile yang menyediakan berbagai fitur untuk memudahkan aktivitas sehari-hari, meliputi:
+**kitliy** (toolkit by aliyya) adalah aplikasi mobile yang menyediakan berbagai fitur untuk memudahkan aktivitas sehari-hari, meliputi:
 
 - 📞 **Kontak** - Manajemen kontak dengan fitur search dan add contact
 - 🔢 **Kalkulator** - Kalkulator sederhana dengan operasi matematika dasar
@@ -32,45 +31,107 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 ## ✨ Fitur Utama
 
 ### 1. **Splash Screen (5 detik)**
-- Menampilkan logo aplikasi
-- Foto profil developer
-- NIM dan nama
-- Countdown timer dengan animasi
+
+Halaman pembuka aplikasi dengan countdown 5 detik sebelum masuk ke Dashboard.
+
+**Memuat:**
+- Opening "kitliy" dilengkapi dengan gradient effect
+- Foto profil developer (circle avatar)
+- Info: NIM (15-2023-093) dan Username (aliyyarahma)
+- Countdown timer dengan progress indicator
+- Animasi fade-in, slide-up, dan scale
+- Auto-navigate ke Dashboard
+
+**Screenshot:**
+![Splash Screen](assets/images/screenshots/1.%20SplashScreen.png)
+
+---
 
 ### 2. **Dashboard**
+
+Halaman utama aplikasi dengan Quick Access menu untuk navigasi cepat ke berbagai fitur.
+
+**Memuat:**
+- Header dengan greeting "Hello, Aliy! 👋"
+- Theme toggle button (Light/Dark mode)
+- Profile picture button
+- Quick Access section dengan 5 cards:
+  - 4 Square Cards (Weather, Contacts, Calculator, Profile)
+  - 1 Rectangle Card (Latest News)
 - Bottom Navigation Bar dengan 5 menu
-- Quick Access cards untuk akses cepat
-- Light/Dark mode toggle
-- Greeting personalized
+- Smooth animations dan transitions
+
+**Screenshots:**
+
+**Light Theme:**
+![Dashboard Light](assets/images/screenshots/2.%20Dashboard%20-%20LightTheme.png)
+
+**Dark Theme:**
+![Dashboard Dark](assets/images/screenshots/2.%20Dashboard%20-%20DarkTheme.png)
+
+---
 
 ### 3. **Halaman Kontak**
-- List 15+ kontak dengan search
-- Tambah kontak baru (in-memory)
-- Detail kontak dengan modal
-- Sorting alphabetical otomatis
+
+Manajemen kontak dengan fitur search dan add contact.
+
+**Memuat:**
+- Header dengan title "Contacts"
+- Contact counter badge (jumlah kontak)
+- Add contact button (gradient button)
+- Search bar dengan clear button
+- List 15 kontak dengan circle avatar
+- Tap kontak untuk lihat detail (bottom sheet modal)
+- Action buttons: Call & Message
+- Add contact dialog dengan form input
+- Empty state saat pencarian tidak ditemukan
+
+**Screenshots:**
+
+**Light Theme:**
+![Contact Light](assets/images/screenshots/4.%20ContactPage%20-%20LightTheme.png)
+![Add Contact Light](assets/images/screenshots/4.%20ContactPage_AddContact%20-%20LightTheme.png)
+![Detail Contact Light](assets/images/screenshots/4.%20ContactPage_DetailContact%20-%20LightTheme.png)
+
+**Dark Theme:**
+![Contact Dark](assets/images/screenshots/4.%20ContactPage%20-%20DarkTheme.png)
+![Add Contact Dark](assets/images/screenshots/4.%20ContactPage_AddContact%20-%20DarkTheme.png)
+![Detail Contact Dark](assets/images/screenshots/4.%20ContactPage_DetailContact%20-%20DarkTheme.png)
+
+---
 
 ### 4. **Halaman Kalkulator**
-- Operasi: +, -, ×, ÷
-- Operasi tambahan: x², √, ^
-- Clear dan backspace
-- Responsive design
+
+Kalkulator sederhana dengan operasi matematika lengkap.
+
+**Memuat:**
+- Header dengan title "Calculator"
+- Display area dengan input expression dan result
+- Button grid 4x5 dengan operasi lengkap
+- Dynamic AC/⌫ button (berganti otomatis)
+- Operasi: tambah (+), kurang (-), kali (×), bagi (÷)
+- Fungsi tambahan: persen (%), akar kuadrat (√), pangkat (^)
+- Error handling untuk operasi tidak valid
+- Smart behavior: auto-clear setelah hasil
+
+**Screenshots:**
+
+**Light Theme:**
+![Calculator Light](assets/images/screenshots/5.%20Calculator%20Page%20-%20Light%20Theme.png)
+
+**Dark Theme:**
+![Calculator Dark](assets/images/screenshots/5.%20CalculatorPage%20-%20DarkTheme.png)
+
+---
+
 
 ### 5. **Halaman Cuaca**
-- Data real-time dari API BMKG
-- Informasi suhu, kelembaban, wind speed
-- Forecast per jam
-- Location: Bandung, West Java
+
 
 ### 6. **Halaman Berita**
-- List berita static
-- Card design dengan thumbnail
-- Coming soon: API integration
+
 
 ### 7. **Halaman Biodata**
-- Form input data
-- Dropdown, radio button, calendar
-- Upload foto profil
-- Data tidak disimpan ke database (sesuai soal)
 
 ---
 
@@ -79,45 +140,8 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 - **Main Color**: #A8D8EA (Baby Blue)
 - **Theme**: Light & Dark mode support
 - **Typography**: Clean & modern
-- **Layout**: Material Design 3
 - **Navigation**: Bottom Navigation Bar dengan elevated active state
 - **Animations**: Smooth transitions & micro-interactions
-
----
-
-## 📸 Screenshots
-
-### Splash Screen
-![Splash Screen](screenshots/splash.png)
-*Splash screen dengan countdown 5 detik*
-
-### Dashboard (Light Mode)
-![Dashboard Light](screenshots/dashboard_light.png)
-*Dashboard dengan quick access cards*
-
-### Dashboard (Dark Mode)
-![Dashboard Dark](screenshots/dashboard_dark.png)
-*Dark mode dengan warna yang nyaman di mata*
-
-### Halaman Kontak
-![Kontak](screenshots/contact.png)
-*List kontak dengan search dan add button*
-
-### Halaman Kalkulator
-![Kalkulator](screenshots/calculator.png)
-*Kalkulator dengan operasi lengkap*
-
-### Halaman Cuaca
-![Cuaca](screenshots/weather.png)
-*Data cuaca real-time Bandung*
-
-### Halaman Berita
-![Berita](screenshots/news.png)
-*List berita terkini*
-
-### Halaman Biodata
-![Biodata](screenshots/profile.png)
-*Form biodata lengkap*
 
 ---
 
@@ -128,7 +152,8 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 - **State Management**: setState (StatefulWidget)
 - **API**: BMKG Weather API
 - **Dependencies**:
-  - `http: ^1.1.0` - HTTP requests
+  - `http: ^1.1.0`
+  - HTTP requests
   - Material Design 3
 
 ---
@@ -137,8 +162,8 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 
 1. Clone repository:
 ```bash
-git clone https://github.com/username-kamu/devliy-mobile-app.git
-cd devliy-mobile-app
+git clone https://github.com/aliyyarahma20/kitliy.git
+cd
 ```
 
 2. Install dependencies:
@@ -164,6 +189,7 @@ lib/
     ├── calculator_page.dart  # Halaman kalkulator
     ├── weather_page.dart     # Halaman cuaca
     ├── news_page.dart        # Halaman berita
+    ├── news_detail_page.dart # Halaman detail berita
     └── profile_page.dart     # Halaman biodata
 ```
 
@@ -190,7 +216,7 @@ lib/
 
 - Data kontak disimpan **in-memory** (tidak persistent)
 - Data biodata **tidak disimpan ke database** (sesuai instruksi soal)
-- Cuaca menggunakan **API BMKG real-time** untuk Kota Bandung
+- Cuaca menggunakan **API BMKG real-time** untuk beberapa kota yang dimuat
 - Berita masih **static data** (belum API integration)
 
 ---
