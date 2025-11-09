@@ -35,14 +35,14 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 Halaman pembuka aplikasi dengan countdown 5 detik sebelum masuk ke Dashboard.
 
 **Memuat:**
-- Opening "kitliy" dilengkapi dengan gradient effect
-- Foto profil developer (circle avatar)
-- Info: NIM (15-2023-093) dan Username (aliyyarahma)
-- Countdown timer dengan progress indicator
-- Animasi fade-in, slide-up, dan scale
-- Auto-navigate ke Dashboard
+- Opening "kitliy" dilengkapi dengan gradient effect  
+- Foto profil developer (circle avatar)  
+- Info: NIM (15-2023-093) dan Username (aliyyarahma)  
+- Countdown timer dengan progress indicator  
+- Animasi fade-in, slide-up, dan scale  
+- Auto-navigate ke Dashboard  
 
-**Screenshot:**
+**Screenshot:**  
 ![Splash Screen](assets/images/screenshoots/1.%20SplashScreen.png)
 
 ---
@@ -52,21 +52,21 @@ Halaman pembuka aplikasi dengan countdown 5 detik sebelum masuk ke Dashboard.
 Halaman utama aplikasi dengan Quick Access menu untuk navigasi cepat ke berbagai fitur.
 
 **Memuat:**
-- Header dengan greeting "Hello, Aliy! 👋"
-- Theme toggle button (Light/Dark mode)
-- Profile picture button
-- Quick Access section dengan 5 cards:
-  - 4 Square Cards (Weather, Contacts, Calculator, Profile)
-  - 1 Rectangle Card (Latest News)
-- Bottom Navigation Bar dengan 5 menu
-- Smooth animations dan transitions
+- Header dengan greeting "Hello, Aliy! 👋"  
+- Theme toggle button (Light/Dark mode)  
+- Profile picture button  
+- Quick Access section dengan 5 cards:  
+  - 4 Square Cards (Weather, Contacts, Calculator, Profile)  
+  - 1 Rectangle Card (Latest News)  
+- Bottom Navigation Bar dengan 5 menu  
+- Smooth animations dan transitions  
 
-**Screenshots:**
+**Screenshots:**  
 
-**Light Theme:**
+**Light Theme:**  
 ![Dashboard Light](assets/images/screenshoots/2.%20Dashboard%20-%20LightTheme.png)
 
-**Dark Theme:**
+**Dark Theme:**  
 ![Dashboard Dark](assets/images/screenshoots/2.%20Dashboard%20-%20DarkTheme.png)
 
 ---
@@ -76,29 +76,29 @@ Halaman utama aplikasi dengan Quick Access menu untuk navigasi cepat ke berbagai
 Halaman profil pengguna dengan form input biodata lengkap dan fitur save data.
 
 **Memuat:**
-- Back button untuk kembali ke dashboard
-- Profile picture dengan gradient border
-- Username "aliyyarahma" dan NIM "15-2023-093"
-- Form input lengkap dengan sections:
-  - Personal Information (Name, Email, Phone, Address)
-  - Gender selector (Radio button: Male/Female)
-  - Date of Birth (Calendar picker)
-  - Occupation (Dropdown: Software Developer, UI/UX Designer, dll)
-  - Bio (Multiline text field)
-- Save Profile button dengan gradient dan icon
-- Data persistence menggunakan SharedPreferences
-- Loading state saat load data
-- Success notification setelah save
-- Smooth scrolling dengan BouncingScrollPhysics
+- Back button untuk kembali ke dashboard  
+- Profile picture dengan gradient border  
+- Username "aliyyarahma" dan NIM "15-2023-093"  
+- Form input lengkap dengan sections:  
+  - Personal Information (Name, Email, Phone, Address)  
+  - Gender selector (Radio button: Male/Female)  
+  - Date of Birth (Calendar picker)  
+  - Occupation (Dropdown: Software Developer, UI/UX Designer, dll)  
+  - Bio (Multiline text field)  
+- Save Profile button dengan gradient dan icon  
+- Data persistence menggunakan SharedPreferences  
+- Loading state saat load data  
+- Success notification setelah save  
+- Smooth scrolling dengan BouncingScrollPhysics  
 
-**Screenshots:**
+**Screenshots:**  
 
-**Light Theme:**
-![Profile Light 1](assets/images/screenshoots/3.%20ProfilePage%20-%20LightTheme.png)
+**Light Theme:**  
+![Profile Light 1](assets/images/screenshoots/3.%20ProfilePage%20-%20LightTheme.png)  
 ![Profile Light 2](assets/images/screenshoots/3.%20ProfilePage%20-%20LightTheme_2.png)
 
-**Dark Theme:**
-![Profile Dark 1](assets/images/screenshoots/3.%20ProfilePage%20-%20DarkTheme.png)
+**Dark Theme:**  
+![Profile Dark 1](assets/images/screenshoots/3.%20ProfilePage%20-%20DarkTheme.png)  
 ![Profile Dark 2](assets/images/screenshoots/3.%20ProfilePage%20-%20DarkTheme_2.png)
 
 ---
@@ -108,26 +108,26 @@ Halaman profil pengguna dengan form input biodata lengkap dan fitur save data.
 Manajemen kontak dengan fitur search dan add contact.
 
 **Memuat:**
-- Header dengan title "Contacts"
-- Contact counter badge (jumlah kontak)
-- Add contact button (gradient button)
-- Search bar dengan clear button
-- List 15 kontak dengan circle avatar
-- Tap kontak untuk lihat detail (bottom sheet modal)
-- Action buttons: Call & Message
-- Add contact dialog dengan form input
-- Empty state saat pencarian tidak ditemukan
+- Header dengan title "Contacts"  
+- Contact counter badge (jumlah kontak)  
+- Add contact button (gradient button)  
+- Search bar dengan clear button  
+- List 15 kontak dengan circle avatar  
+- Tap kontak untuk lihat detail (bottom sheet modal)  
+- Action buttons: Call & Message  
+- Add contact dialog dengan form input  
+- Empty state saat pencarian tidak ditemukan  
 
-**Screenshots:**
+**Screenshots:**  
 
-**Light Theme:**
-![Contact Light](assets/images/screenshoots/4.%20ContactPage%20-%20LightTheme.png)
-![Add Contact Light](assets/images/screenshoots/4.%20ContactPage_AddContact%20-%20LightTheme.png)
+**Light Theme:**  
+![Contact Light](assets/images/screenshoots/4.%20ContactPage%20-%20LightTheme.png)  
+![Add Contact Light](assets/images/screenshoots/4.%20ContactPage_AddContact%20-%20LightTheme.png)  
 ![Detail Contact Light](assets/images/screenshoots/4.%20ContactPage_DetailContact%20-%20LightTheme.png)
 
-**Dark Theme:**
-![Contact Dark](assets/images/screenshoots/4.%20ContactPage%20-%20DarkTheme.png)
-![Add Contact Dark](assets/images/screenshoots/4.%20ContactPage_AddContact%20-%20DarkTheme.png)
+**Dark Theme:**  
+![Contact Dark](assets/images/screenshoots/4.%20ContactPage%20-%20DarkTheme.png)  
+![Add Contact Dark](assets/images/screenshoots/4.%20ContactPage_AddContact%20-%20DarkTheme.png)  
 ![Detail Contact Dark](assets/images/screenshoots/4.%20ContactPage_DetailContact%20-%20DarkTheme.png)
 
 ---
@@ -137,21 +137,21 @@ Manajemen kontak dengan fitur search dan add contact.
 Kalkulator sederhana dengan operasi matematika lengkap.
 
 **Memuat:**
-- Header dengan title "Calculator"
-- Display area dengan input expression dan result
-- Button grid 4x5 dengan operasi lengkap
-- Dynamic AC/⌫ button (berganti otomatis)
-- Operasi: tambah (+), kurang (-), kali (×), bagi (÷)
-- Fungsi tambahan: persen (%), akar kuadrat (√), pangkat (^)
-- Error handling untuk operasi tidak valid
-- Smart behavior: auto-clear setelah hasil
+- Header dengan title "Calculator"  
+- Display area dengan input expression dan result  
+- Button grid 4x5 dengan operasi lengkap  
+- Dynamic AC/⌫ button (berganti otomatis)  
+- Operasi: tambah (+), kurang (-), kali (×), bagi (÷)  
+- Fungsi tambahan: persen (%), akar kuadrat (√), pangkat (^)  
+- Error handling untuk operasi tidak valid  
+- Smart behavior: auto-clear setelah hasil  
 
-**Screenshots:**
+**Screenshots:**  
 
-**Light Theme:**
+**Light Theme:**  
 ![Calculator Light](assets/images/screenshoots/5.%20Calculator%20Page%20-%20Light%20Theme.png)
 
-**Dark Theme:**
+**Dark Theme:**  
 ![Calculator Dark](assets/images/screenshoots/5.%20CalculatorPage%20-%20DarkTheme.png)
 
 ---
@@ -161,23 +161,23 @@ Kalkulator sederhana dengan operasi matematika lengkap.
 Informasi cuaca real-time dari API BMKG dengan tampilan yang sangat menarik.
 
 **Memuat:**
-- Location selector untuk 7 kota (Bandung, Jakarta, Surabaya, Yogyakarta, Semarang, Medan, Makassar)
-- Current weather display dengan suhu besar dan icon cuaca
-- Parallax scroll effect pada header
-- 4 Info cards: Humidity, Feels Like, Wind, Visibility
-- Hourly forecast (12 jam ke depan) dengan horizontal scroll
-- 5-Day forecast dengan high/low temperature
-- Weather icons yang dinamis (Sunny, Mostly Clear, Cloudy, Rainy, Thunderstorm)
-- Loading state dan error handling dengan retry button
-- Real-time data dari BMKG API
-- Attribution "Data by BMKG"
+- Location selector untuk 7 kota (Bandung, Jakarta, Surabaya, Yogyakarta, Semarang, Medan, Makassar)  
+- Current weather display dengan suhu besar dan icon cuaca  
+- Parallax scroll effect pada header  
+- 4 Info cards: Humidity, Feels Like, Wind, Visibility  
+- Hourly forecast (12 jam ke depan) dengan horizontal scroll  
+- 5-Day forecast dengan high/low temperature  
+- Weather icons yang dinamis (Sunny, Mostly Clear, Cloudy, Rainy, Thunderstorm)  
+- Loading state dan error handling dengan retry button  
+- Real-time data dari BMKG API  
+- Attribution "Data by BMKG"  
 
-**Screenshots:**
+**Screenshots:**  
 
-**Light Theme:**
+**Light Theme:**  
 ![Weather Light](assets/images/screenshoots/6.%20WeatherPage%20-%20Light%20Theme.png)
 
-**Dark Theme:**
+**Dark Theme:**  
 ![Weather Dark](assets/images/screenshoots/6.%20WeatherPage%20-%20DarkTheme.png)
 
 ---
@@ -187,27 +187,27 @@ Informasi cuaca real-time dari API BMKG dengan tampilan yang sangat menarik.
 Daftar berita teknologi terkini dengan card design yang modern.
 
 **Memuat:**
-- Header dengan title "News" dan subtitle
-- List 12 artikel tech news dengan scroll
-- Featured image dengan gradient overlay
-- Source badge dan timestamp (2h ago, 1d ago, dll)
-- Article title dan description preview
-- "Read More" button untuk navigasi ke detail
-- Loading indicator saat fetch image
-- Fallback icon jika gambar gagal load
-- Navigate ke News Detail Page saat tap
-- Static data dengan realistic timestamps
+- Header dengan title "News" dan subtitle  
+- List 12 artikel tech news dengan scroll  
+- Featured image dengan gradient overlay  
+- Source badge dan timestamp (2h ago, 1d ago, dll)  
+- Article title dan description preview  
+- "Read More" button untuk navigasi ke detail  
+- Loading indicator saat fetch image  
+- Fallback icon jika gambar gagal load  
+- Navigate ke News Detail Page saat tap  
+- Static data dengan realistic timestamps  
 
-**Screenshots:**
+**Screenshots:**  
 
-**Light Theme:**
-![News Light 1](assets/images/screenshoots/7.%20NewsPage%20-%20LightTheme.png)
-![News Light 2](assets/images/screenshoots/7.%20NewsPage%20-%20LightTheme_2.png)
+**Light Theme:**  
+![News Light 1](assets/images/screenshoots/7.%20NewsPage%20-%20LightTheme.png)  
+![News Light 2](assets/images/screenshoots/7.%20NewsPage%20-%20LightTheme_2.png)  
 ![News Light 3](assets/images/screenshoots/7.%20NewsPage%20-%20LightTheme_3.png)
 
-**Dark Theme:**
-![News Dark 1](assets/images/screenshoots/7.%20NewsPage%20-%20DarkTheme.png)
-![News Dark 2](assets/images/screenshoots/7.%20NewsPage%20-%20DarkTheme_2.png)
+**Dark Theme:**  
+![News Dark 1](assets/images/screenshoots/7.%20NewsPage%20-%20DarkTheme.png)  
+![News Dark 2](assets/images/screenshoots/7.%20NewsPage%20-%20DarkTheme_2.png)  
 ![News Dark 3](assets/images/screenshoots/7.%20NewsPage%20-%20DarkTheme_3.png)
 
 ---
