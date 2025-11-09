@@ -28,6 +28,13 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 
 ---
 
+## 🎥 Demo Video
+
+Lihat video demo aplikasi:  
+[![Watch the video](https://youtube.com/shorts/IY1VLV8_gD4?feature=share)
+
+---
+
 ## ✨ Fitur Utama
 
 ### 1. **Splash Screen (5 detik)**
