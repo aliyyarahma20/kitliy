@@ -198,15 +198,14 @@ lib/
 ## 🎯 Jawaban Soal UTS
 
 ### SubCPMK 2: Layout & Widget Implementation
-
-✅ **Splash Screen** - Implementasi dengan AnimationController, Timer, dan gradient background
-✅ **Bottom Navigation** - Custom elevated navigation bar dengan 5 menu
-✅ **Fragment Concept** - Menggunakan setState untuk switch page
-✅ **Biodata Form** - Lengkap dengan dropdown, radio button, text field, dan calendar
-✅ **Kontak List** - ListView dengan 15+ kontak, search, dan add function
-✅ **Kalkulator** - Fully functional dengan operasi matematika
-✅ **Cuaca** - Real-time API integration dengan BMKG
-✅ **Berita** - List layout dengan card design
+- **Splash Screen** - Implementasi dengan AnimationController, Timer, dan gradient background
+- **Bottom Navigation** - Custom elevated navigation bar dengan 5 menu
+- **Fragment Concept** - Menggunakan setState untuk switch page
+- **Biodata Form** - Lengkap dengan dropdown, radio button, text field, dan calendar
+- **Kontak List** - ListView dengan 15+ kontak, search, dan add function
+- **Kalkulator** - Fully functional dengan operasi matematik
+- **Cuaca** - Real-time API integration dengan BMKG
+- **Berita** - List layout dengan card design
 
 **Semua requirement terpenuhi!** ✨
 
