@@ -43,7 +43,7 @@ Halaman pembuka aplikasi dengan countdown 5 detik sebelum masuk ke Dashboard.
 - Auto-navigate ke Dashboard
 
 **Screenshot:**
-![Splash Screen](assets/images/screenshots/1.%20SplashScreen.png)
+![Splash Screen](assets/images/screenshoots/1.%20SplashScreen.png)
 
 ---
 
@@ -64,10 +64,10 @@ Halaman utama aplikasi dengan Quick Access menu untuk navigasi cepat ke berbagai
 **Screenshots:**
 
 **Light Theme:**
-![Dashboard Light](assets/images/screenshots/2.%20Dashboard%20-%20LightTheme.png)
+![Dashboard Light](assets/images/screenshoots/2.%20Dashboard%20-%20LightTheme.png)
 
 **Dark Theme:**
-![Dashboard Dark](assets/images/screenshots/2.%20Dashboard%20-%20DarkTheme.png)
+![Dashboard Dark](assets/images/screenshoots/2.%20Dashboard%20-%20DarkTheme.png)
 
 ---
 
@@ -94,12 +94,12 @@ Halaman profil pengguna dengan form input biodata lengkap dan fitur save data.
 **Screenshots:**
 
 **Light Theme:**
-![Profile Light 1](assets/images/screenshots/3.%20ProfilePage%20-%20LightTheme.png)
-![Profile Light 2](assets/images/screenshots/3.%20ProfilePage%20-%20LightTheme_2.png)
+![Profile Light 1](assets/images/screenshoots/3.%20ProfilePage%20-%20LightTheme.png)
+![Profile Light 2](assets/images/screenshoots/3.%20ProfilePage%20-%20LightTheme_2.png)
 
 **Dark Theme:**
-![Profile Dark 1](assets/images/screenshots/3.%20ProfilePage%20-%20DarkTheme.png)
-![Profile Dark 2](assets/images/screenshots/3.%20ProfilePage%20-%20DarkTheme_2.png)
+![Profile Dark 1](assets/images/screenshoots/3.%20ProfilePage%20-%20DarkTheme.png)
+![Profile Dark 2](assets/images/screenshoots/3.%20ProfilePage%20-%20DarkTheme_2.png)
 
 ---
 
@@ -121,14 +121,14 @@ Manajemen kontak dengan fitur search dan add contact.
 **Screenshots:**
 
 **Light Theme:**
-![Contact Light](assets/images/screenshots/4.%20ContactPage%20-%20LightTheme.png)
-![Add Contact Light](assets/images/screenshots/4.%20ContactPage_AddContact%20-%20LightTheme.png)
-![Detail Contact Light](assets/images/screenshots/4.%20ContactPage_DetailContact%20-%20LightTheme.png)
+![Contact Light](assets/images/screenshoots/4.%20ContactPage%20-%20LightTheme.png)
+![Add Contact Light](assets/images/screenshoots/4.%20ContactPage_AddContact%20-%20LightTheme.png)
+![Detail Contact Light](assets/images/screenshoots/4.%20ContactPage_DetailContact%20-%20LightTheme.png)
 
 **Dark Theme:**
-![Contact Dark](assets/images/screenshots/4.%20ContactPage%20-%20DarkTheme.png)
-![Add Contact Dark](assets/images/screenshots/4.%20ContactPage_AddContact%20-%20DarkTheme.png)
-![Detail Contact Dark](assets/images/screenshots/4.%20ContactPage_DetailContact%20-%20DarkTheme.png)
+![Contact Dark](assets/images/screenshoots/4.%20ContactPage%20-%20DarkTheme.png)
+![Add Contact Dark](assets/images/screenshoots/4.%20ContactPage_AddContact%20-%20DarkTheme.png)
+![Detail Contact Dark](assets/images/screenshoots/4.%20ContactPage_DetailContact%20-%20DarkTheme.png)
 
 ---
 
@@ -149,10 +149,10 @@ Kalkulator sederhana dengan operasi matematika lengkap.
 **Screenshots:**
 
 **Light Theme:**
-![Calculator Light](assets/images/screenshots/5.%20Calculator%20Page%20-%20Light%20Theme.png)
+![Calculator Light](assets/images/screenshoots/5.%20Calculator%20Page%20-%20Light%20Theme.png)
 
 **Dark Theme:**
-![Calculator Dark](assets/images/screenshots/5.%20CalculatorPage%20-%20DarkTheme.png)
+![Calculator Dark](assets/images/screenshoots/5.%20CalculatorPage%20-%20DarkTheme.png)
 
 ---
 
@@ -175,10 +175,10 @@ Informasi cuaca real-time dari API BMKG dengan tampilan yang sangat menarik.
 **Screenshots:**
 
 **Light Theme:**
-![Weather Light](assets/images/screenshots/6.%20WeatherPage%20-%20Light%20Theme.png)
+![Weather Light](assets/images/screenshoots/6.%20WeatherPage%20-%20Light%20Theme.png)
 
 **Dark Theme:**
-![Weather Dark](assets/images/screenshots/6.%20WeatherPage%20-%20DarkTheme.png)
+![Weather Dark](assets/images/screenshoots/6.%20WeatherPage%20-%20DarkTheme.png)
 
 ---
 
@@ -201,14 +201,14 @@ Daftar berita teknologi terkini dengan card design yang modern.
 **Screenshots:**
 
 **Light Theme:**
-![News Light 1](assets/images/screenshots/7.%20NewsPage%20-%20LightTheme.png)
-![News Light 2](assets/images/screenshots/7.%20NewsPage%20-%20LightTheme_2.png)
-![News Light 3](assets/images/screenshots/7.%20NewsPage%20-%20LightTheme_3.png)
+![News Light 1](assets/images/screenshoots/7.%20NewsPage%20-%20LightTheme.png)
+![News Light 2](assets/images/screenshoots/7.%20NewsPage%20-%20LightTheme_2.png)
+![News Light 3](assets/images/screenshoots/7.%20NewsPage%20-%20LightTheme_3.png)
 
 **Dark Theme:**
-![News Dark 1](assets/images/screenshots/7.%20NewsPage%20-%20DarkTheme.png)
-![News Dark 2](assets/images/screenshots/7.%20NewsPage%20-%20DarkTheme_2.png)
-![News Dark 3](assets/images/screenshots/7.%20NewsPage%20-%20DarkTheme_3.png)
+![News Dark 1](assets/images/screenshoots/7.%20NewsPage%20-%20DarkTheme.png)
+![News Dark 2](assets/images/screenshoots/7.%20NewsPage%20-%20DarkTheme_2.png)
+![News Dark 3](assets/images/screenshoots/7.%20NewsPage%20-%20DarkTheme_3.png)
 
 ---
 
