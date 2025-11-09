@@ -1,4 +1,4 @@
-# kitliy - Mobile App
+# 🌸 kitliy - Mobile App
 
 **Develop Better, Build Faster**
 
@@ -22,7 +22,7 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 
 - 📞 **Kontak** - Manajemen kontak dengan fitur search dan add contact
 - 🔢 **Kalkulator** - Kalkulator sederhana dengan operasi matematika dasar
-- 🌤️ **Cuaca** - Informasi cuaca real-time Kota Bandung dari API BMKG
+- 🌤️ **Cuaca** - Informasi cuaca real-time dari API BMKG
 - 📰 **Berita** - Daftar berita terkini (static)
 - 👤 **Biodata** - Halaman profil pengguna
 
@@ -71,7 +71,39 @@ Halaman utama aplikasi dengan Quick Access menu untuk navigasi cepat ke berbagai
 
 ---
 
-### 3. **Halaman Kontak**
+### 3. **Halaman Biodata (Profile)**
+
+Halaman profil pengguna dengan form input biodata lengkap dan fitur save data.
+
+**Memuat:**
+- Back button untuk kembali ke dashboard
+- Profile picture dengan gradient border
+- Username "aliyyarahma" dan NIM "15-2023-093"
+- Form input lengkap dengan sections:
+  - Personal Information (Name, Email, Phone, Address)
+  - Gender selector (Radio button: Male/Female)
+  - Date of Birth (Calendar picker)
+  - Occupation (Dropdown: Software Developer, UI/UX Designer, dll)
+  - Bio (Multiline text field)
+- Save Profile button dengan gradient dan icon
+- Data persistence menggunakan SharedPreferences
+- Loading state saat load data
+- Success notification setelah save
+- Smooth scrolling dengan BouncingScrollPhysics
+
+**Screenshots:**
+
+**Light Theme:**
+![Profile Light 1](assets/images/screenshots/3.%20ProfilePage%20-%20LightTheme.png)
+![Profile Light 2](assets/images/screenshots/3.%20ProfilePage%20-%20LightTheme_2.png)
+
+**Dark Theme:**
+![Profile Dark 1](assets/images/screenshots/3.%20ProfilePage%20-%20DarkTheme.png)
+![Profile Dark 2](assets/images/screenshots/3.%20ProfilePage%20-%20DarkTheme_2.png)
+
+---
+
+### 4. **Halaman Kontak**
 
 Manajemen kontak dengan fitur search dan add contact.
 
@@ -100,7 +132,7 @@ Manajemen kontak dengan fitur search dan add contact.
 
 ---
 
-### 4. **Halaman Kalkulator**
+### 5. **Halaman Kalkulator**
 
 Kalkulator sederhana dengan operasi matematika lengkap.
 
@@ -124,20 +156,65 @@ Kalkulator sederhana dengan operasi matematika lengkap.
 
 ---
 
+### 6. **Halaman Cuaca**
 
-### 5. **Halaman Cuaca**
+Informasi cuaca real-time dari API BMKG dengan tampilan yang sangat menarik.
 
+**Memuat:**
+- Location selector untuk 7 kota (Bandung, Jakarta, Surabaya, Yogyakarta, Semarang, Medan, Makassar)
+- Current weather display dengan suhu besar dan icon cuaca
+- Parallax scroll effect pada header
+- 4 Info cards: Humidity, Feels Like, Wind, Visibility
+- Hourly forecast (12 jam ke depan) dengan horizontal scroll
+- 5-Day forecast dengan high/low temperature
+- Weather icons yang dinamis (Sunny, Mostly Clear, Cloudy, Rainy, Thunderstorm)
+- Loading state dan error handling dengan retry button
+- Real-time data dari BMKG API
+- Attribution "Data by BMKG"
 
-### 6. **Halaman Berita**
+**Screenshots:**
 
+**Light Theme:**
+![Weather Light](assets/images/screenshots/6.%20WeatherPage%20-%20Light%20Theme.png)
 
-### 7. **Halaman Biodata**
+**Dark Theme:**
+![Weather Dark](assets/images/screenshots/6.%20WeatherPage%20-%20DarkTheme.png)
+
+---
+
+### 7. **Halaman Berita**
+
+Daftar berita teknologi terkini dengan card design yang modern.
+
+**Memuat:**
+- Header dengan title "News" dan subtitle
+- List 12 artikel tech news dengan scroll
+- Featured image dengan gradient overlay
+- Source badge dan timestamp (2h ago, 1d ago, dll)
+- Article title dan description preview
+- "Read More" button untuk navigasi ke detail
+- Loading indicator saat fetch image
+- Fallback icon jika gambar gagal load
+- Navigate ke News Detail Page saat tap
+- Static data dengan realistic timestamps
+
+**Screenshots:**
+
+**Light Theme:**
+![News Light 1](assets/images/screenshots/7.%20NewsPage%20-%20LightTheme.png)
+![News Light 2](assets/images/screenshots/7.%20NewsPage%20-%20LightTheme_2.png)
+![News Light 3](assets/images/screenshots/7.%20NewsPage%20-%20LightTheme_3.png)
+
+**Dark Theme:**
+![News Dark 1](assets/images/screenshots/7.%20NewsPage%20-%20DarkTheme.png)
+![News Dark 2](assets/images/screenshots/7.%20NewsPage%20-%20DarkTheme_2.png)
+![News Dark 3](assets/images/screenshots/7.%20NewsPage%20-%20DarkTheme_3.png)
 
 ---
 
 ## 🎨 Design & UI/UX
 
-- **Main Color**: #A8D8EA (Baby Blue)
+- **Main Color**: #B8E2F2 (Baby Blue)
 - **Theme**: Light & Dark mode support
 - **Typography**: Clean & modern
 - **Navigation**: Bottom Navigation Bar dengan elevated active state
@@ -152,8 +229,8 @@ Kalkulator sederhana dengan operasi matematika lengkap.
 - **State Management**: setState (StatefulWidget)
 - **API**: BMKG Weather API
 - **Dependencies**:
-  - `http: ^1.1.0`
-  - HTTP requests
+  - `http: ^1.1.0` - HTTP requests
+  - `shared_preferences: ^2.2.2` - Local data storage
   - Material Design 3
 
 ---
@@ -163,7 +240,7 @@ Kalkulator sederhana dengan operasi matematika lengkap.
 1. Clone repository:
 ```bash
 git clone https://github.com/aliyyarahma20/kitliy.git
-cd
+cd kitliy
 ```
 
 2. Install dependencies:
@@ -185,12 +262,12 @@ lib/
 └── screens/
     ├── splash_screen.dart    # Splash screen
     ├── dashboard.dart        # Main dashboard
+    ├── profile_page.dart     # Halaman biodata
     ├── contact_page.dart     # Halaman kontak
     ├── calculator_page.dart  # Halaman kalkulator
     ├── weather_page.dart     # Halaman cuaca
     ├── news_page.dart        # Halaman berita
-    ├── news_detail_page.dart # Halaman detail berita
-    └── profile_page.dart     # Halaman biodata
+    └── news_detail_page.dart # Halaman detail berita
 ```
 
 ---
@@ -198,14 +275,15 @@ lib/
 ## 🎯 Jawaban Soal UTS
 
 ### SubCPMK 2: Layout & Widget Implementation
-- **Splash Screen** - Implementasi dengan AnimationController, Timer, dan gradient background
-- **Bottom Navigation** - Custom elevated navigation bar dengan 5 menu
-- **Fragment Concept** - Menggunakan setState untuk switch page
-- **Biodata Form** - Lengkap dengan dropdown, radio button, text field, dan calendar
-- **Kontak List** - ListView dengan 15+ kontak, search, dan add function
-- **Kalkulator** - Fully functional dengan operasi matematik
-- **Cuaca** - Real-time API integration dengan BMKG
-- **Berita** - List layout dengan card design
+
+✅ **Splash Screen** - Implementasi dengan AnimationController, Timer, dan gradient background
+✅ **Bottom Navigation** - Custom elevated navigation bar dengan 5 menu
+✅ **Fragment Concept** - Menggunakan setState untuk switch page
+✅ **Biodata Form** - Lengkap dengan dropdown, radio button, text field, dan calendar
+✅ **Kontak List** - ListView dengan 15+ kontak, search, dan add function
+✅ **Kalkulator** - Fully functional dengan operasi matematika
+✅ **Cuaca** - Real-time API integration dengan BMKG
+✅ **Berita** - List layout dengan card design
 
 **Semua requirement terpenuhi!** ✨
 
@@ -214,8 +292,8 @@ lib/
 ## 📝 Catatan
 
 - Data kontak disimpan **in-memory** (tidak persistent)
-- Data biodata **tidak disimpan ke database** (sesuai instruksi soal)
-- Cuaca menggunakan **API BMKG real-time** untuk beberapa kota yang dimuat
+- Data biodata **disimpan menggunakan SharedPreferences**
+- Cuaca menggunakan **API BMKG real-time** untuk 7 kota
 - Berita masih **static data** (belum API integration)
 
 ---
@@ -234,4 +312,4 @@ Project ini dibuat untuk keperluan UTS Pemrograman Mobile - Institut Teknologi N
 
 ---
 
-**© 2025 devliy - All Rights Reserved**
+**© 2025 kitliy - All Rights Reserved**
