@@ -31,7 +31,7 @@ Aplikasi mobile all-in-one untuk produktivitas dan kebutuhan sehari-hari.
 ## 🎥 Demo Video
 
 Klik untuk menonton demo aplikasi di YouTube:  
-[![Watch the video](https://img.youtube.com/vi/IY1VLV8_gD4/0.jpg)](https://www.youtube.com/shorts/IY1VLV8_gD4)
+[![Watch the video](https://img.youtube.com/vi/IY1VLV8_gD4/0.jpg)](https://youtube.com/shorts/KN5tWNCn0oQ?feature=share)
 
 ---
 
